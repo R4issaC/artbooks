@@ -157,3 +157,52 @@ body, ul {
 .destaque img {
     height: 150px;
 }
+/* Fim do CSS Destaque */
+
+/* Início CSS Novidades */
+
+.novidades .text-boby {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.novidades h2 {
+    color: #000000;
+}
+
+.novidades p {
+    color: #000000;
+}
+
+.novidades a {
+    color: beige;
+    text-decoration: underline;
+    text-decoration-color: rgb(141, 2, 2);
+    padding: 6px 12px;
+    background-color: #800000;
+    font-weight: 400;
+}
+
+/* Fim CSS Novidades */
+/* Início CSS Galeria */
+
+.galeria {
+    margin: 60px auto 20px;
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+
+.galeria .gallery { 
+    width: 30%;
+    margin: 14px auto 50px;
+    
+}
