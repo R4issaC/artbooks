@@ -41,22 +41,69 @@
                 <!-- Início Formulario  -->
                 <div class="col-md-6">
                     <div class="well well-sm">
-                        <form class="form-horizontal" method="post"  action="">
-                            <div class="col-md-10 col-md-offset-1">
-                                <input id="fname" name="name"  type="text" placeholder="Insira seu primeiro nome" class="">
+                        <form class="form-horizontal" method="post" action="">
+                            <fieldset>
+                                <legend class="text-left header">Preencha suas Informações:</legend>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name"  type="text" placeholder="Insira seu primeiro nome" class="form-contral" required >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name"  type="text" placeholder="Insira seu ultimo nome" class="form-contral" required >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email"  type="email" placeholder="Insira seu e-mail" class="form-contral" required >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone"  type="text" placeholder="Insira seu telefone" class="form-contral" required >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                <textarea id="message" name="message"  type="text" placeholder="Insira sua mensagem e retornaremos em ate 2 dias úteis" class="form-contral" rows="7" required ></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="formbutton">Enviar</button>
+                                </div>
+                            </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <!-- Fim Formulário -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="panel panel-default">
+                            <div class="text-center header">Onde estamos localizados</div>
+                            <h4>Endereço:</h4>
+                            <div>Avenida Prado ,123 <br>
+                                Centro,São Paulo -SP - CEP:12345-000
+                                <hr />                                
+                            </div>
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229929.22523042053!2d-80.39392704031265!3d25.782315047627108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2zTWlhbWksIEZsw7NyaWRhLCBFVUE!5e0!3m2!1spt-BR!2sbr!4v1684971954770!5m2!1spt-BR!2sbr" width="630" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                             </div>
-                        </form>
+
+                        </div>
 
                     </div>
 
                 </div>
-
             </div>
-
         </div>
-
     </div>
+    
+    
+
 
      <!-- Início Footer -->
      <footer class="rodape">
@@ -75,7 +122,7 @@
                         <p>E-mail:</p>
                         <p>raissaocaetano@gmail.com</p>
                         <p>Endereço</p>
-                        <p>Jardim Brasilandia,Pedro Pegoretti,228</p>
+                        <p>Não te interessa palhaço</p>
                         <p>Telefone</p>
                         <p>55(15)991356168</p>
                     </div>
