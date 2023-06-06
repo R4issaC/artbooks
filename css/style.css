@@ -57,34 +57,30 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+/*
 .carousel-inner .carousel-item img {
     width: 100%;
     margin: auto;
     max-height: 500px;
     padding-top: 85px;
 }
-
-/*
-#carouselExampleInterval {
-    position: relative;
-    z-index: 10;
-    padding-top: 75px;
-    width: 100%;
-}
-#carouselExampleInterval img {
-    height: 500px;
-    width: auto;
-}
 */
+
+
 #carouselExampleInterval {
     position: relative;
     z-index: 10;
-    padding-top: 5px;
-    margin-left: 8px;
-    margin-right: 8px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 6px #0000007a;
+    transition: 0.3s;
+    width: 100%;
+    display: inline-flex;
     
 }
-#carouselExampleInterval .carousel-inner img {
+#carouselExampleInterval img {
     max-height: 550px;
     width: 100%;
 }
@@ -306,14 +302,16 @@ body, ul {
 .rodape {
     padding: 50px 50px 0;
 }
-.rodape .container img {
+.rodape .container #img-logo {
     height: 50%;
     width: 50%;
-    padding-left: 11px;
-    transition:transform .5s;
+    padding-left: 10px;
+    transition:transform .3s;
+    display: block;
 }
-.rodape .container img:hover {
+.rodape .container #img-logo:hover {
     transform: scale(1.5);
+    box-shadow: 0 0 10px rgb(255, 255, 255, 0.2) ;
 }
 .rodape .info-contato p {
     margin: 0;
@@ -330,8 +328,17 @@ body, ul {
     display: inline-block;
 }
 .rodape .redes-sociais img {
-    width: 45px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    padding-left: 0;
+    margin-left: 0,7rem;
+    transition: trasform .3s;
+    border-radius: 15px; /* Arredondando div do objeto redes sociais */
+} 
+.rodape .redes-sociais img:hover {
+    z-index: 1;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
 }
 .rodape p.direitos {
     text-align: center;
